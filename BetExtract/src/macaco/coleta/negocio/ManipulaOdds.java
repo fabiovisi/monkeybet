@@ -13,14 +13,15 @@ public class ManipulaOdds{
 		Double menor = Double.min(odd1, odd2);
 
 		Double diferenca = maior - menor;
-
+		
 		if (odd1 > 3.00 || odd2 > 3.00) {
 			return false;
-		} else if (oddx >= 3.40 || oddx < 2.50) {
+		} else if (oddx >= 3.20 || oddx < 2.50) {
 			return false;
-		} else if (oddx > 3.00 || diferenca >= 0.40) {
+		} else if (diferenca >= 0.30) {
 			return false;
 		}
+		
 		return true;
 	}
 	

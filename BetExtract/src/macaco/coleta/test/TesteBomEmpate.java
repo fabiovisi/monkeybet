@@ -8,9 +8,9 @@ public class TesteBomEmpate {
 
 	public static void main(String[] args) throws IOException {
 		
-		Float odd1 = (float) 2.43;
+		Float odd1 = (float) 2.75;
 		Float oddx = (float) 3.10;
-		Float odd2 = (float) 2.65;
+		Float odd2 = (float) 2.63;
 		
 		boolean bomEmpate = ManipulaOdds.bomEmpate(odd1, oddx, odd2);
 		
