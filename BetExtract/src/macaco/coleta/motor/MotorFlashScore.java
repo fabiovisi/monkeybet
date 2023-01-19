@@ -236,7 +236,7 @@ public class MotorFlashScore {
 
 			// NEXT DAY INÍCIO -----------------------------
 			WebElement nextDay = driver
-					.findElement(By.xpath("//div[@class='calendar__navigation calendar__navigation--tomorrow']"));
+					.findElement(By.xpath("//*[contains(@class, 'calendar__navigation calendar__navigation--tomorrow')]"));
 
 			try {
 				// seleciona o node da liga
